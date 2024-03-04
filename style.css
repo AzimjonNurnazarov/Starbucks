@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 70px 50px 50px;
+    /* border: 1px solid red; */
+}
+.header_left img{
+    width: 100px;
+}
+.header_right ul{
+    display: flex;
+    list-style: none;
+    
+}
+.header_right ul li{
+    margin-left: 100px;
+} 
+.header_right ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+}
+.header_right ul li a:hover{
+    border-bottom: 3px solid #007908;
+}
+
+section{
+    /* border: 1px solid lawngreen; */
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 60%;
+}
+.left h1{
+    font-family: sans-serif;
+    font-size: 70px;
+    max-width: 80%;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    line-height: 84px;
+}
+.left h1 span{
+    font-family: sans-serif;
+    font-size: 70px;
+    color: #007908;
+    font-weight: 900;
+    line-height: 84px;
+}
+.left p{
+    font-family: sans-serif;
+    width: 80%;
+    color: #484848;
+    line-height: 32px;
+    font-size: 22px;
+    margin-bottom: 50px
+}
+.left button{
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    background-color:#007B0C ;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 30%;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 180px;
+    transition: 0.5s;
+}
+.left button:hover{
+    background-color:#02570a ;
+    transition: 0.5s;
+}
+.right{
+    width: 40%;
+    position: relative;
+    height: 80vh;
+}
+#stakan{
+    width: 550px;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+}
+.aylana{
+    width: 1300px;
+    height: 1300px;
+    background-color: #007908;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+}
+.facebook{
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.instagram{
+    position: absolute;
+    right: 0;
+    top: 270px;
+}
+.twitter{
+    position: absolute;
+    right: 0;
+    top: 340px;
+}
